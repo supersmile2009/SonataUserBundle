@@ -98,7 +98,7 @@ class SonataUserExtension extends Extension implements PrependExtensionInterface
             $loader->load('security_acl.xml');
         }
 
-        $this->checkManagerTypeToModelTypesMapping($config);
+//        $this->checkManagerTypeToModelTypeMapping($config);
 
         $this->registerDoctrineMapping($config);
         $this->configureAdminClass($config, $container);

@@ -18,7 +18,7 @@ use Sonata\UserBundle\Model\User as AbstractedUser;
 /**
  * Represents a Base User Entity.
  */
-class BaseUser extends AbstractedUser
+abstract class BaseUser extends AbstractedUser
 {
     /**
      * Hook on pre-persist operations.
